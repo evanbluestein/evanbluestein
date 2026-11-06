@@ -1,16 +1,19 @@
-## Hi there 👋
+# Evan Bluestein
 
-<!--
-**evanbluestein/evanbluestein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Data analyst in Los Angeles. I build data pipelines in Python and SQL, and then model and analyze that data. I'm also a filmmaker and editor. 
 
-Here are some ideas to get you started:
+Looking for analyst roles: remote (US), Los Angeles, New York or Washington, DC.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured project
+
+**[LAFC Content Analysis](https://github.com/evanbluestein/lafc_content)**: what drives views and engagement on LAFC's YouTube channel.
+
+- Pulled 1,952 videos from the YouTube Data API into SQLite and joined each one to MLS match data from ESPN
+- Built two OLS models, one for views and one for engagement rate. The main finding: **reach and engagement trade against each other.** Shorts got ×4.0 the views but 0.87 points less engagement; podcasts got ×0.30 the views but 2.18 points more.
+- Controlling for publish quarter cut the apparent effect of the Son Heung-min signing from ×36 to ×6.6
+
+**Stack:** Python (pandas, statsmodels, scikit-learn, Plotly) · SQL / SQLite · REST APIs · Jupyter · Git
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/evan-b-15492b268) · evan@telegraphicstyle.com · Editing work: [telegraphicstyle.com](https://telegraphicstyle.com)
